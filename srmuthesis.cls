@@ -126,10 +126,6 @@ a4paper,left=1.5in,right=1in,top=1in,bottom=1in,
 \def\secondauthorregno#1{\gdef\@secondauthorregno{#1}}
 \def\thirdauthor#1{\gdef\@thirdauthor{#1}}
 \def\thirdauthorregno#1{\gdef\@thirdauthorregno{#1}}
-\def\fourthauthor#1{\gdef\@fourthauthor{#1}}
-\def\fourthauthorregno#1{\gdef\@fourthauthorregno{#1}}
-\def\fifthauthor#1{\gdef\@fifthauthor{#1}}
-\def\fifthauthorregno#1{\gdef\@fifthauthorregno{#1}}
 %\RequirePackage[dvips]{graphicx}
 
 
@@ -267,7 +263,7 @@ a4paper,left=1.5in,right=1in,top=1in,bottom=1in,
      %\typeout{Certificate}
        \if@BTech
      \begin{doublespacing}
-     {\large Certified that this project report titled ``{\bf\MakeUppercase{\@title}}'' is the bonafide work of ``{\bf\MakeUppercase{\@firstauthor} {\@firstauthorregno}, \bf\MakeUppercase{\@secondauthor} {\@secondauthorregno}, \bf\MakeUppercase{\@thirdauthor} {\@thirdauthorregno}, \bf\MakeUppercase{\@fourthauthor} {\@fourthauthorregno}, \bf\MakeUppercase{\@fifthauthor} {\@fifthauthorregno}}'', who carried out the project work under my supervision. Certified further, that to the best of my knowledge the work reported herein does not form any other project report or dissertation on the basis of which a degree or award was conferred on an earlier occasion on this or any other candidate.}
+     {\large Certified that this project report titled ``{\bf\MakeUppercase{\@title}}'' is the bonafide work of ``{\bf\MakeUppercase{\@firstauthor} {\@firstauthorregno}, \bf\MakeUppercase{\@secondauthor} {\@secondauthorregno}, \bf\MakeUppercase{\@thirdauthor} {\@thirdauthorregno}}'', who carried out the project work under my supervision. Certified further, that to the best of my knowledge the work reported herein does not form any other project report or dissertation on the basis of which a degree or award was conferred on an earlier occasion on this or any other candidate.}
      \end{doublespacing}
      \else
      \begin{doublespacing}
